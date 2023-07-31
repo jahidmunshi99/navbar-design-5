@@ -9,9 +9,9 @@
 
 // Toggle Button for Main Menu
 const toggleButton = document.querySelector("#toggle-icon");
-const mainMenu = document.querySelector("#main-menu");
+const mainMenu = document.querySelector(".navbar-nav");
 
-toggleButton.addEventListener("click",()=>{
+toggleButton.addEventListener("click", ()=>{
     mainMenu.classList.toggle("active");
-    console.log('Hi This Is Jahid')
+    // console.log('Hi This Is Jahid')
 })

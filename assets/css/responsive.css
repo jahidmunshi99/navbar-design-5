@@ -1,24 +1,3 @@
-@media (max-width:1200px) {
-    .header-area .navbar-nav .nav-item{
-        margin: 0 0.5rem;
-    }
-    .toggle-button{
-        display: none;
-    }    
-}
-/* @media (max-width:768px) {
-    .toggle-button{
-        display: inline-block;
-    }
-    .active{
-        display: inline-block;
-    }
-    .header-area .navbar-nav{
-        display: none;
-    }
-}  */
-
-
 @media (min-width:320px){
     .theme-btn {
         padding: 0.3rem 0.5rem;
@@ -27,20 +6,31 @@
     .nav-buttons {
         display: none;
     }
+    .list-item .nav-link{
+        display: block;
+    }
     .header-area .navbar-nav {
         display: none;
         position: absolute;
-        left: 0;   
-        top: 0;
+        left:0;   
+        top: 100px;
         flex-direction: column;
         background: #000;
         opacity: 1;
-        text-align: center;
+        text-align: left;
         width: 100%;
-        height: 740px;
+        padding: 50px 0;
     }
+    .header-area .navbar-nav .active{
+        display: block;
+    }
+
     .header-area .navbar-nav .list-item{
         margin-top: 1rem;
+        margin-left: 20px;
+    }
+    .hero-left {
+        width: 100%;
     }
 
     .hero-section .hero-title {
@@ -67,11 +57,6 @@
         width: 293px; 
         margin: 10px 0;
     }
-    *, ::after, ::before {
-        box-sizing: border-box;
-        margin:0 auto;
-        padding: 0;
-    }
     .hero-btn-sarch .search-bar input {
         width: 150px;
     }
@@ -83,13 +68,50 @@
     .hero-btn-sarch .search-bar {
         margin: 3px 0 46px 0;
     }
-    .active{
-        display: block;
+}
+
+
+
+
+@media (min-width:400px){
+    .row {
+        padding: 1% 0;
+    }
+    .hero-details {
+        font-size: 0.7rem;
+        margin: 1rem 0
+    }
+    .hero-section .hero-title {
+        font-size: 0.9rem;
+        line-height: 2rem;
+    }
+    .hero-right {
+        float: none;
+    }
+    .hero-right .banner-image img {
+        width: 69%;
+    }
+    .hero-btn-sarch .search-bar {
+        width: 390px;
+    }
+    .hero-btn-sarch .search-bar input {
+        width: 250px;
     }
 }
 
-@media (max-width:1150px){
-    .theme-btn{
-        font-size: 12px;
+
+@media (min-width:500px){
+    .hero-details {
+        font-size: 0.8rem;;
+    }
+    .hero-btn-sarch .theme-btn {
+        margin: 20px 0;
+    }
+    .hero-btn-sarch .search-bar {
+        width: 422px;
+    }
+    .hero-btn-sarch .search-bar input {
+        width: 278px;
     }
 }
+

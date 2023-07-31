@@ -73,6 +73,7 @@ button{
 .navbar-nav .logo img{
     position: absolute;
     left: 0;
+    top: 0;
 }
 #toggle-icon{
     font-size: 1.2rem;
