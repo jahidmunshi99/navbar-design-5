@@ -68,6 +68,14 @@ button{
 .navbar-nav{
     display: flex;
     justify-content: space-between;    
+    position: relative;
+}
+.navbar-nav .logo img{
+    position: absolute;
+    left: 0;
+}
+#toggle-icon{
+    font-size: 1.2rem;
 }
 .nav-link{
     margin: 0 1.5rem;
@@ -150,23 +158,6 @@ button{
     cursor: pointer; 
     transition: 0.3s;
 }
-
 .hero-btn-sarch .search-bar label:hover{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 0.5px 7px 0.5px;
-}
-
-@media (min-width:320px){
-    .theme-btn{
-        font-size: 12px;
-    }
-    .hero-section .hero-title {
-        font-size: 0.8rem;
-        line-height: 1.5rem;
-    }
-}
-
-@media (max-width:1150px){
-    .theme-btn{
-        font-size: 12px;
-    }
 }
