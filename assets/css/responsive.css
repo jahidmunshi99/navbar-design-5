@@ -27,11 +27,8 @@
     .nav-buttons {
         display: none;
     }
-    /* .navbar-nav{
-        display: none;
-    } */
     .header-area .navbar-nav {
-        display: block;
+        display: none;
         position: absolute;
         left: 0;   
         top: 0;
